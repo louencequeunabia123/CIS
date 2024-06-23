@@ -93,6 +93,11 @@ public class LoginDashboard extends javax.swing.JFrame {
                 usernameMouseClicked(evt);
             }
         });
+        username.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                usernameActionPerformed(evt);
+            }
+        });
         jPanel1.add(username, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 350, 265, 29));
 
         jButton2.setBackground(new java.awt.Color(255, 255, 255));
@@ -247,6 +252,10 @@ public class LoginDashboard extends javax.swing.JFrame {
         new RegisterDashboard().setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void usernameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_usernameActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_usernameActionPerformed
 
     public static void main(String args[]) {
 
